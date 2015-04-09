@@ -1,0 +1,17 @@
+ul {
+  color: brown;
+}
+
+.greater-apes{
+  font-size: 28px;
+
+}
+
+.lesser-apes{
+  font-size: 14px;
+  }
+.person{
+  li:last-child {
+    font-weight: bold;
+  }
+}

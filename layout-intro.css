@@ -1,0 +1,32 @@
+/*Tables*/
+
+table {
+  border-collapse: collapse;
+}
+td {
+  backgroud: skyblue;
+  padding: 10px;
+}
+
+/*Float*/
+section{
+  overflow: hidden;
+}
+
+div {
+  float: left;
+  backgroud: skyblue;
+  padding: 10px;
+}
+/* Flexbox */
+ul { display: flex;
+
+}
+li{
+  backgroud: skyblue;
+  padding: 10px;
+}
+
+.even-columns li {
+  flex: 1;
+}
