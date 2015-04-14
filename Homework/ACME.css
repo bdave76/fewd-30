@@ -116,10 +116,11 @@ section {
 /* Flexbox */
 /* ------------------------------- */
 ul {
-	display: infine-flex;
+	display: flex;
 }
 ul li {
 	padding: 10px;
+  display: block;
 }
 
 .two-column .sidebar {
