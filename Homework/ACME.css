@@ -124,9 +124,8 @@ ul li {
 }
 
 .two-column .sidebar {
-	width: 200px;
+	width: 250px;
 }
 .two-column .main {
 	flex: 1;
-	background: grey;
 }
