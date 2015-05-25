@@ -1,0 +1,131 @@
+header {
+  background-color: #c4c4c4;
+  padding: 10px 20px;
+  border-bottom: 1px solid gray;
+  min-width: 800px;
+  position: relative;
+}
+
+header nav {
+text-shadow: 0 1px gray;
+position: absolute;
+right: 25px;
+top: 10px;
+}
+
+body {
+margin: 0;
+background: url("http://i.imgur.com/UrO97DD.png");
+}
+
+header nav ul {
+margin: 0;
+line-height: 60px;
+}
+
+header nav li {
+display: inline;
+font-size: 20px;
+margin-left: 20px;
+}
+
+header nav a {
+color: white;
+}
+
+main,
+footer {
+max-width: 700px;
+margin: 0 auto;
+padding: 35px;
+}
+
+main {
+background-color: white;
+margin-top: 40px;
+margin-bottom: 40px;
+border: 1px solid lightgray;
+border-radius: 12px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+color: gray;
+font-size: 12px;
+text-align: center;
+padding-top: 30px;
+border-top: 1px solid gray;
+
+}
+
+.menu {
+  text-decoration: none;
+  font-family: arial;
+}
+.signup {
+background-color: navy;
+padding: 10px 16px;
+border: 1px solid gray;
+text-shadow: 0 1px gray;
+border-radius: 5px;
+}
+
+.prod-img {
+  height: 150px;
+  width: 230px;
+  padding: 8px;
+  margin: 10px;
+  border: solid lightgray 1px;
+  border-radius: 2px;
+
+}
+
+.prod-button {
+  background-color: red;
+   padding: 10px 16px;
+   display:table-cell;
+   border: 1px solid gray;
+   text-shadow: 0 1px gray;
+   border-radius: 5px;
+   text-decoration: none;
+   color: white;
+   font-family: arial;
+   font-size: 14px;
+}
+.prod-info {
+  vertical-align: top;
+  text-align: left;
+  padding: 11px 0px 0px 10px;
+}
+
+.main {
+background-color: white;
+margin-top: 40px;
+margin-bottom: 40px;
+border: 1px solid lightgray;
+border-radius: 12px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Float */
+/* ------------------------------- */
+section {
+	overflow: hidden;
+}
+
+/* Flexbox */
+/* ------------------------------- */
+ul {
+	display: flex;
+}
+ul li {
+	padding: 10px;
+  display: block;
+}
+
+.two-column .sidebar {
+	width: 250px;
+}
+.two-column .main {
+	flex: 1;
+}
